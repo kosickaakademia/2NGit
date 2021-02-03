@@ -1,5 +1,7 @@
 package sk.kosickaakademia.predicate.example2;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Set;
 import java.util.Arrays;
 import java.util.List;
@@ -30,4 +32,9 @@ public class Main {
 	System.out.println("fero");
 	System.out.println("fero");
 	System.out.println("fero");
+	System.out.println("fero");
+	System.out.println("fero");
+	System.out.println("fero");
+
+
 }
