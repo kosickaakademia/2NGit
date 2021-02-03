@@ -1,6 +1,7 @@
 package sk.kosickaakademia.predicate.example2;
 
 import java.util.Set;
+.import java.util.HashSet;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
@@ -9,7 +10,7 @@ import java.util.function.Predicate;
 public class Main {
     public static void main(String[] args) {
 
-	Set x;
+	Set x=new HashSet();
 
         Integer[] pole = {5,15,4,8,100,12,3,0,65,4,-7,89};
         List<Integer> nums = Arrays.asList(pole);
