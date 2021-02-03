@@ -3,6 +3,7 @@ package sk.kosickaakademia.predicate.example2;
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Set;
+import java.util.HashSet;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
@@ -11,9 +12,11 @@ import java.util.function.Predicate;
 public class Main {
     public static void main(String[] args) {
 
-	Set x;
-	// commit jakub tomas changed pole
+
+	Set x=new HashSet();
+
         Integer[] pole = {5,44,4,8,100,12,3,0,65,4,-7,88,85,86,85};
+
         List<Integer> nums = Arrays.asList(pole);
 
         Predicate<Integer> btf = n -> n > 5;  // (n) -> n >5

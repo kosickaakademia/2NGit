@@ -2,6 +2,7 @@ public class Student {
 
     private String name;
     private int age;
+    private double weight;
 
     public Student(String name, int age) {
         this.name = name;
