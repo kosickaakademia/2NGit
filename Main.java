@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
 	Set x;
-
-        Integer[] pole = {5,15,4,8,100,12,3,0,65,4,-7,89};
+	// commit jakub tomas changed pole
+        Integer[] pole = {5,44,4,8,100,12,3,0,65,4,-7,88,85,86,85};
         List<Integer> nums = Arrays.asList(pole);
 
         Predicate<Integer> btf = n -> n > 5;  // (n) -> n >5
@@ -25,4 +25,9 @@ public class Main {
         System.out.println(">> "+c+" <<");
 	// Done
     }
+	
+	// commit from jakub tomas
+	System.out.println("fero");
+	System.out.println("fero");
+	System.out.println("fero");
 }
